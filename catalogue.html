@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Project Catalogue</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -21,29 +21,106 @@
         </div>
     </div>
 
-
-    <div class="container">
-
-        <div class="profile-picture mt-3">
-            <img src="./Assets/profile-picture.jpg" />
+    <section class="mb-5">
+        <div class="container">
+            <h3 class="section-title">Projects</h3>
         </div>
-        <p class="my-4 mx-5 ">
-            👋 Hi, I'm Archipe — a passionate full-stack developer based in South Africa. I build modern, responsive web
-            apps using .NET, C#, and Flutter, with a focus on clean UI and performance.
 
-            I love turning complex problems into elegant solutions and always aim to write code that's both maintainable
-            and
-            scalable. Whether it's a burger ordering system for students or a real estate listing app, I approach each
-            project with curiosity and care.
+        <div class="row">
+            <!-- Portfolio Website -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Portfolio</h5>
+                        <p class="card-text">
+                            A responsive and visually appealing portfolio website built to showcase my skills, projects,
+                            and professional background. Designed using HTML, CSS, and Bootstrap.
+                        </p>
+                        <a href="https://archipesesanga.github.io/My_Portfolio/" class="btn btn-sm btn-outline-primary"
+                            target="_blank">View Live</a>
+                    </div>
+                </div>
+            </div>
 
-            Beyond coding, I enjoy teaching guitar, exploring music theory, and helping others grow through learning.
-            I'm
-            currently open to new projects, collaborations, or freelance work — feel free to contact me.
+            <!-- CUT Burger -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">CUT_Burger Web App</h5>
+                        <p class="card-text">
+                            A burger ordering system designed for university students, built with ASP.NET Core MVC and
+                            SQLite. Includes cart functionality, order tracking, and admin management.
+                        </p>
+                        <a href="https://github.com/ArchipeSesanga/burger_app.git"
+                            class="btn btn-sm btn-outline-primary" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
 
-            Let’s build something amazing together.
-        </p>
-    </div>
-   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-3 my-4  border-top ">
+            <!-- Consultation App -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Flutter Consultation App</h5>
+                        <p class="card-text">
+                            A mobile application for scheduling consultations between students and instructors. Built
+                            with Flutter and Firebase using the MVVM architecture. Supports booking, notes, and session
+                            tracking.
+                        </p>
+                        <a href="https://github.com/ArchipeSesanga/consultation_app.git"
+                            class="btn btn-sm btn-outline-primary" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- StudentSync -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">StudentSync Platform</h5>
+                        <p class="card-text">
+                            A multi-functional web app featuring an e-commerce section, student portal, and admin
+                            dashboard. Built using ASP.NET Core, C#, SQLite, and Bootstrap. Includes authentication and
+                            role management via Identity.
+                        </p>
+                        <a href="https://github.com/ArchipeSesanga/trashWise.git" class="btn btn-sm btn-outline-primary"
+                            target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TrashWise -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">TrashWise</h5>
+                        <p class="card-text">
+                            A web application aimed at promoting recycling and waste management. Users can request
+                            pick-ups for recyclable items and find nearby drop-off locations. Built with ASP.NET Core
+                            and Bootstrap.
+                        </p>
+                        <a href="https://github.com/ArchipeSesanga/trashWise.git" class="btn btn-sm btn-outline-primary"
+                            target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flutter Real Estate -->
+            <div class="col-md-6 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Flutter Real Estate App</h5>
+                        <p class="card-text">
+                            A mobile app that allows users to list and browse real estate properties. Built with Flutter
+                            and uses local `.txt` files for lightweight data persistence. Features clean UI and
+                            responsive layout.
+                        </p>
+                        <a href="#" class="btn btn-sm btn-outline-primary" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-3 my-4  border-top ">
     <div class="container">
 
     
@@ -88,8 +165,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pN
 </body>
 
 </html>
